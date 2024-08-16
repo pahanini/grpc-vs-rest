@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package="grpc-example/pb";
+
+service User {
+  rpc Info(Request) returns (Response) {}
+}
+
+// Request user by ID
+message Request {
+  int32 ID = 1;
+}
+
+// Response with user data
+message Response {
+  int32 ID = 1;
+  string name = 2;
+  string email = 3;
+}
+
