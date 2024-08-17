@@ -1,8 +1,8 @@
 # grpc-vs-rest
 
-GRPC vs REST client server exchange example. 
+GRPC vs REST client server exchange learning example. 
 
-Simple client server exchange with performance test. Study 
+Simple client server exchange with performance test.
 
 ## Install
 
